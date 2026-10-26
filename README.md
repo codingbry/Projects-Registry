@@ -26,7 +26,7 @@ To maintain clarity and support multiple reports under the same category, docume
 homelab-and-projects/
 ├── README.md                          <-- Main index & overview
 ├── Omarchy/
-│   └── ztopinc-wifi-adapter.md
+│   └── zt9101_wi_fi_driver_setup_guide.md
 ├── homelab/
 │   └── ubuntu-server-lab.md
 ├── devops/

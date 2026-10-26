@@ -1,4 +1,4 @@
-# Homelab & Projects Registry
+# Projects Registry
 
 Welcome to my central technical repository. This space serves as a master registry and log for all my ongoing software engineering projects, system administration tasks, homelab infrastructure fixes, and academic developments. 
 

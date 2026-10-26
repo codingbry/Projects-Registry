@@ -10,7 +10,7 @@ Each report inside this repository documents technical configurations, incident 
 
 | Category | Project / System | Status | Direct Report Link |
 | :--- | :--- | :--- | :--- |
-| **Omarchy** | ZTopInc USB Wi-Fi Adapter Fix | **Resolved & Stable** | [View Fix Report](./Omarchy/ztopinc-wifi-adapter.md) |
+| **Omarchy** | ZTopInc USB Wi-Fi Adapter Fix | **Resolved & Stable** | [View Fix Report](./Omarchy/zt9101_wi_fi_driver_setup_guide.md) |
 | **Homelab** | Ubuntu Server Hardware Lab | **Not Yet Implemented** | [View Storage Notes](./homelab/ubuntu-server-lab.md) |
 | **DevOps** | Breon SMS (Laravel / Docker Stack) | **Deployed & Running** | [View Deployment Log](./devops/breon-sms/breon-sms-deployment.md) |
 | **Academic** | ADAI Capstone Project | **Active Development** | [View Overview](./academic/adai-capstone/adai-capstone-overview.md) |
@@ -26,7 +26,7 @@ To maintain clarity and support multiple reports under the same category, docume
 homelab-and-projects/
 ├── README.md                          <-- Main index & overview
 ├── Omarchy/
-│   └── ztopinc-wifi-adapter.md
+│   └── zt9101_wi_fi_driver_setup_guide.md
 ├── homelab/
 │   └── ubuntu-server-lab.md
 ├── devops/

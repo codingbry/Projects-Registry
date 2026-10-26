@@ -13,6 +13,7 @@ Each report inside this repository documents technical configurations, incident 
 | **Omarchy** | ZTopInc USB Wi-Fi Adapter Fix | **Resolved & Stable** | [View Fix Report](./Omarchy/zt9101_wi_fi_driver_setup_guide.md) |
 | **Homelab** | Ubuntu Server Hardware Lab | **Not Yet Implemented** | [View Storage Notes](./homelab/ubuntu-server-lab.md) |
 | **DevOps** | Breon SMS (Laravel / Docker Stack) | **Deployed & Running** | [View Deployment Log](./devops/breon-sms/breon-sms-deployment.md) |
+| **App Scripts** | Office Mini Honesty Store (Google Apps Script) | **Setup documented** | [View Project Guide](./appscripts/honesty-store.md) |
 | **Academic** | ADDAI Capstone Project | **Active Development** | [View Overview](./academic/addai-capstone/addai-capstone-overview.md) |
 | **Academic** | TimetableMaster | **Not Yet Implemented** | [View Planning Notes](./academic/timetablemaster/timetablemaster-plan.md) |
 
@@ -23,10 +24,12 @@ Each report inside this repository documents technical configurations, incident 
 To maintain clarity and support multiple reports under the same category, documentation files use unique, descriptive names instead of generic `README.md` titles:
 
 ```text
-homelab-and-projects/
+.
 ├── README.md                          <-- Main index & overview
 ├── Omarchy/
 │   └── zt9101_wi_fi_driver_setup_guide.md
+├── appscripts/
+│   └── honesty-store.md
 ├── homelab/
 │   └── ubuntu-server-lab.md
 ├── devops/

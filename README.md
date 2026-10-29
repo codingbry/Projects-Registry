@@ -16,6 +16,7 @@ Each report inside this repository documents technical configurations, incident 
 | **App Scripts** | Office Mini Honesty Store (Google Apps Script) | **Setup documented** | [View Project Guide](./appscripts/honesty-store.md) |
 | **Academic** | ADDAI Capstone Project | **Active Development** | [View Overview](./academic/addai-capstone/addai-capstone-overview.md) |
 | **Academic** | TimetableMaster | **Not Yet Implemented** | [View Planning Notes](./academic/timetablemaster/timetablemaster-plan.md) |
+| **Homelab** | Pi-hole Gravity Update & Docker DNS Fix | **Resolved & Stable** | [View Fix Report](./homelab/pihole-gravity-dns-resolution-fix.md) |
 
 ---
 
@@ -31,7 +32,8 @@ To maintain clarity and support multiple reports under the same category, docume
 ├── appscripts/
 │   └── honesty-store.md
 ├── homelab/
-│   └── ubuntu-server-lab.md
+│   ├── ubuntu-server-lab.md
+│   └── pihole-gravity-dns-resolution-fix.md  <-- New Incident Report
 ├── devops/
 │   └── breon-sms/
 │       └── breon-sms-deployment.md

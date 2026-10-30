@@ -11,12 +11,12 @@ Each report inside this repository documents technical configurations, incident 
 | Category | Project / System | Status | Direct Report Link |
 | :--- | :--- | :--- | :--- |
 | **Omarchy** | ZTopInc USB Wi-Fi Adapter Fix | **Resolved & Stable** | [View Fix Report](./Omarchy/zt9101_wi_fi_driver_setup_guide.md) |
-| **Omarchy** | Multi-User End-4 Hyprland Setup | **Resolved & Stable** | [View Setup Guide](./Omarchy/omarchy_multiuser_end4_setup.md) |
-| **Omarchy** | SDDM `qylock` Theme Integration | **Resolved & Stable** | [View Setup Guide](./Omarchy/sddm_qylock_theme_setup.md) |
+| **Omarchy** | Multi-User End-4 Hyprland Setup | **Resolved & Stable** | [View Setup Guide](./Omarchy/omarchy_multi_user_end_4_hyprland_setup.md) |
+| **Omarchy** | SDDM `qylock` Theme Integration | **Resolved & Stable** | [View Setup Guide](./Omarchy/sddm_qylock_theme_setup_guide.md) |
 | **Omarchy** | Omarchy Session Logout Keybind Fix | **Resolved & Stable** | [View Fix Report](./Omarchy/omarchy_session_logout_keybind_fix.md) |
 | **Omarchy** | Omarchy System Menu Logout Override | **Resolved & Stable** | [View Fix Report](./Omarchy/omarchy_system_menu_logout_override.md) |
-| **Omarchy** | Hyprland Global Opacity Fix | **Resolved & Stable** | [View Fix Report](./Omarchy/omarchy_hyprland_global_opacity_fix.md) |
-| **Omarchy** | Hyprland Compositor Blur Tuning | **Resolved & Stable** | [View Setup Guide](./Omarchy/omarchy_hyprland_compositor_blur_tuning.md) |
+| **Omarchy** | Hyprland Global Opacity Fix | **Resolved & Stable** | [View Fix Report](./Omarchy/hyprland_global_opacity_fix_technical_report.md) |
+| **Omarchy** | Hyprland Compositor Blur Tuning | **Resolved & Stable** | [View Setup Guide](./Omarchy/hyprland_compositor_blur_tuning_technical_report.md) |
 | **Homelab** | Ubuntu Server Hardware Lab | **Not Yet Implemented** | [View Storage Notes](./homelab/ubuntu-server-lab.md) |
 | **Homelab** | Pi-hole Gravity Update & Docker DNS Fix | **Resolved & Stable** | [View Fix Report](./homelab/pi_hole_gravity_resolution_fix_incident_report.md) |
 | **DevOps** | Breon SMS (Laravel / Docker Stack) | **Deployed & Running** | [View Deployment Log](./devops/breon-sms/breon-sms-deployment.md) |
@@ -35,12 +35,12 @@ To maintain clarity and support multiple reports under the same category, docume
 ├── README.md                          <-- Main index & overview
 ├── Omarchy/
 │   ├── zt9101_wi_fi_driver_setup_guide.md
-│   ├── omarchy_multiuser_end4_setup.md
-│   ├── sddm_qylock_theme_setup.md
+│   ├── omarchy_multi_user_end_4_hyprland_setup.md
+│   ├── sddm_qylock_theme_setup_guide.md
 │   ├── omarchy_session_logout_keybind_fix.md
 │   ├── omarchy_system_menu_logout_override.md
-│   ├── omarchy_hyprland_global_opacity_fix.md
-│   └── omarchy_hyprland_compositor_blur_tuning.md
+│   ├── hyprland_global_opacity_fix_technical_report.md
+│   └── hyprland_compositor_blur_tuning_technical_report.md
 ├── appscripts/
 │   └── honesty-store.md
 ├── homelab/

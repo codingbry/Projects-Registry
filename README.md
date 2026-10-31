@@ -11,6 +11,7 @@ Each report inside this repository documents technical configurations, incident 
 | Category | Project / System | Status | Direct Report Link |
 | :--- | :--- | :--- | :--- |
 | **Omarchy** | ZTopInc USB Wi-Fi Adapter Fix | **Resolved & Stable** | [View Fix Report](./Omarchy/zt9101_wi_fi_driver_setup_guide.md) |
+| **Omarchy** | ThinkPad T440s Intel Wi-Fi Watchdog | **Installed; Recovery Verified** | [View Watchdog Report](./Omarchy/thinkpad_t440s_iwlwifi_watchdog_report.md) |
 | **Omarchy** | Multi-User End-4 Hyprland Setup | **Resolved & Stable** | [View Setup Guide](./Omarchy/omarchy_multi_user_end_4_hyprland_setup.md) |
 | **Omarchy** | SDDM `qylock` Theme Integration | **Resolved & Stable** | [View Setup Guide](./Omarchy/sddm_qylock_theme_setup_guide.md) |
 | **Omarchy** | Omarchy Session Logout Keybind Fix | **Resolved & Stable** | [View Fix Report](./Omarchy/omarchy_session_logout_keybind_fix.md) |
@@ -35,6 +36,7 @@ To maintain clarity and support multiple reports under the same category, docume
 ├── README.md                          <-- Main index & overview
 ├── Omarchy/
 │   ├── zt9101_wi_fi_driver_setup_guide.md
+│   ├── thinkpad_t440s_iwlwifi_watchdog_report.md
 │   ├── omarchy_multi_user_end_4_hyprland_setup.md
 │   ├── sddm_qylock_theme_setup_guide.md
 │   ├── omarchy_session_logout_keybind_fix.md
@@ -54,4 +56,3 @@ To maintain clarity and support multiple reports under the same category, docume
     │   └── addai-capstone-overview.md
     └── timetablemaster/
         └── timetablemaster-plan.md
-```

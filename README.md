@@ -21,6 +21,7 @@ Each report inside this repository documents technical configurations, incident 
 | **Homelab** | Ubuntu Server Hardware Lab | **Not Yet Implemented** | [View Storage Notes](./homelab/ubuntu-server-lab.md) |
 | **Homelab** | Pi-hole Gravity Update & Docker DNS Fix | **Resolved & Stable** | [View Fix Report](./homelab/pi_hole_gravity_resolution_fix_incident_report.md) |
 | **DevOps** | Breon SMS (Laravel / Docker Stack) | **Deployed & Running** | [View Deployment Log](./devops/breon-sms/breon-sms-deployment.md) |
+| **DevOps** | SongHub ESP8266 Wi-Fi Remote | **Packaged; Testing Pending** | [View Project Report](./devops/Songhub/SongHub-ESP8266-Remote.md) |
 | **App Scripts** | Office Mini Honesty Store (Google Apps Script) | **Setup documented** | [View Project Guide](./appscripts/honesty-store.md) |
 | **Academic** | ADDAI Capstone Project | **Active Development** | [View Overview](./academic/addai-capstone/addai-capstone-overview.md) |
 | **Academic** | TimetableMaster | **Not Yet Implemented** | [View Planning Notes](./academic/timetablemaster/timetablemaster-plan.md) |
@@ -49,8 +50,10 @@ To maintain clarity and support multiple reports under the same category, docume
 │   ├── ubuntu-server-lab.md
 │   └── pi_hole_gravity_resolution_fix_incident_report.md
 ├── devops/
-│   └── breon-sms/
-│       └── breon-sms-deployment.md
+│   ├── breon-sms/
+│   │   └── breon-sms-deployment.md
+│   └── Songhub/
+│       └── SongHub-ESP8266-Remote.md
 └── academic/
     ├── addai-capstone/
     │   └── addai-capstone-overview.md

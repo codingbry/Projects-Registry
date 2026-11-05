@@ -23,6 +23,8 @@ Each report inside this repository documents technical configurations, incident 
 | **DevOps** | Breon SMS (Laravel / Docker Stack) | **Deployed & Running** | [View Deployment Log](./devops/breon-sms/breon-sms-deployment.md) |
 | **DevOps** | SongHub ESP8266 Wi-Fi Remote | **Packaged; Testing Pending** | [View Project Report](./devops/Songhub/SongHub-ESP8266-Remote.md) |
 | **App Scripts** | Office Mini Honesty Store (Google Apps Script) | **Setup documented** | [View Project Guide](./appscripts/honesty-store.md) |
+| **App Scripts** | Honesty Store - Modernized Inventory Architecture | **Resolved & Refactored** | [View Architecture Report](./appscripts/modernized_inventory_architecture.md) |
+| **App Scripts** | Honesty Store - Midnight Rollover | **Implemented & Tested** | [View Rollover Report](./appscripts/automated_midnight_rollover.md) |
 | **Academic** | ADDAI Capstone Project | **Active Development** | [View Overview](./academic/addai-capstone/addai-capstone-overview.md) |
 | **Academic** | TimetableMaster | **Not Yet Implemented** | [View Planning Notes](./academic/timetablemaster/timetablemaster-plan.md) |
 
@@ -34,7 +36,7 @@ To maintain clarity and support multiple reports under the same category, docume
 
 ```text
 .
-├── README.md                          <-- Main index & overview
+├── README.md                            <-- Main index & overview
 ├── Omarchy/
 │   ├── zt9101_wi_fi_driver_setup_guide.md
 │   ├── thinkpad_t440s_iwlwifi_watchdog_report.md
@@ -45,7 +47,9 @@ To maintain clarity and support multiple reports under the same category, docume
 │   ├── hyprland_global_opacity_fix_technical_report.md
 │   └── hyprland_compositor_blur_tuning_technical_report.md
 ├── appscripts/
-│   └── honesty-store.md
+│   ├── honesty-store.md
+│   ├── modernized_inventory_architecture.md
+│   └── automated_midnight_rollover.md
 ├── homelab/
 │   ├── ubuntu-server-lab.md
 │   └── pi_hole_gravity_resolution_fix_incident_report.md
@@ -59,3 +63,4 @@ To maintain clarity and support multiple reports under the same category, docume
     │   └── addai-capstone-overview.md
     └── timetablemaster/
         └── timetablemaster-plan.md
+```

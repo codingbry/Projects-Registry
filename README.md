@@ -20,8 +20,10 @@ Each report inside this repository documents technical configurations, incident 
 | **Omarchy** | Hyprland Compositor Blur Tuning | **Resolved & Stable** | [View Setup Guide](./Omarchy/hyprland_compositor_blur_tuning_technical_report.md) |
 | **Homelab** | Ubuntu Server Hardware Lab | **Not Yet Implemented** | [View Storage Notes](./homelab/ubuntu-server-lab.md) |
 | **Homelab** | Pi-hole Gravity Update & Docker DNS Fix | **Resolved & Stable** | [View Fix Report](./homelab/pi_hole_gravity_resolution_fix_incident_report.md) |
+| **Homelab** | OmniRoute Docker Setup & Management | **Setup documented** | [View Setup Manual](./homelab/Omniroute_in_Docker.md) |
+| **Homelab** | Mitmproxy Configuration & 24-Hour Retention | **Implemented; Configuration Documented** | [View Configuration Report](./homelab/mitmproxy_homelab_configuration_and_retention_report.md) |
 | **DevOps** | Breon SMS (Laravel / Docker Stack) | **Deployed & Running** | [View Deployment Log](./devops/breon-sms/breon-sms-deployment.md) |
-| **DevOps** | SongHub ESP8266 Wi-Fi Remote | **Packaged; Testing Pending** | [View Project Report](./devops/Songhub/SongHub-ESP8266-Remote.md) |
+| **DevOps** | SongHub ESP32 BLE Remote | **Implemented; Testing Pending** | [View Implementation Report](./devops/Songhub/SongHub-ESP32-firmware-implementation.md) |
 | **App Scripts** | Office Mini Honesty Store (Google Apps Script) | **Setup documented** | [View Project Guide](./appscripts/honesty-store.md) |
 | **App Scripts** | Honesty Store - Modernized Inventory Architecture | **Resolved & Refactored** | [View Architecture Report](./appscripts/modernized_inventory_architecture.md) |
 | **App Scripts** | Honesty Store - Midnight Rollover | **Implemented & Tested** | [View Rollover Report](./appscripts/automated_midnight_rollover.md) |
@@ -52,12 +54,15 @@ To maintain clarity and support multiple reports under the same category, docume
 │   └── automated_midnight_rollover.md
 ├── homelab/
 │   ├── ubuntu-server-lab.md
-│   └── pi_hole_gravity_resolution_fix_incident_report.md
+│   ├── pi_hole_gravity_resolution_fix_incident_report.md
+│   ├── Omniroute_in_Docker.md
+│   └── mitmproxy_homelab_configuration_and_retention_report.md
 ├── devops/
 │   ├── breon-sms/
 │   │   └── breon-sms-deployment.md
 │   └── Songhub/
-│       └── SongHub-ESP8266-Remote.md
+│       ├── SongHub-ESP8266-Remote.md
+│       └── SongHub-ESP32-firmware-implementation.md
 └── academic/
     ├── addai-capstone/
     │   └── addai-capstone-overview.md
